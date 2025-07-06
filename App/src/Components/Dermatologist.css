@@ -1,0 +1,80 @@
+.recommendation-container-dermatolgist {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 80vh;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 auto 40px auto; /* Add bottom margin */
+}
+/* Add a dark overlay using a pseudo-element */
+.recommendation-container-dermatolgist::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('../assets/background/Dermatologist.jpeg') center/cover no-repeat;
+  filter: brightness(0.6); /* dim the image */
+  z-index: 1;
+}
+
+.secondary-dermatolgist {
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px;
+  
+}
+.secondary h1{
+ color:#F6F0F0;
+ margin-bottom:40px;
+}
+
+.btn {
+  position: relative;
+  color: white;
+  padding: 16px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 900;
+  background: #001e6c;
+  font-size: 14px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.btn::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(270deg, #00c9ff, #92fe9d, #fddb92, #fc466b, #00c9ff);
+  background-size: 600% 600%;
+  border-radius: 6px;
+  z-index: -1;
+  animation: animateBorder 4s linear infinite;
+}
+
+.btn:hover {
+  background-color: #00154a;
+}
+
+@keyframes animateBorder {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

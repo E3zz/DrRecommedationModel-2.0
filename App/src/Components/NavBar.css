@@ -1,0 +1,49 @@
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height:16;
+    color: #00809D;
+}
+
+.logo {
+  display: flex;
+  align-items: center; 
+}
+
+.img {
+  height: 100px; 
+  margin-right: -20px;
+  padding-top:10px;
+
+
+}
+.logo:hover{
+  color:black;
+}
+
+.logo span {
+  font-size: 1.9rem; 
+  font-weight: bold;
+  cursor:pointer;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 27px;
+    font-size: 1.09rem; 
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.l1:hover{
+  color:black;
+}
+a {
+  text-decoration: none;
+  color: inherit; /* Optional: makes the link use the same text color as the parent */
+}

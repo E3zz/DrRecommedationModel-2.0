@@ -1,0 +1,116 @@
+.fb-container {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+.fb-main {
+  width: 100%;
+  max-width: 800px;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.fb-main h1 {
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.fb-list {
+  list-style: none;
+  padding: 0;
+}
+
+.fb-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eef2f5;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.fb-button {
+  padding: 0.5rem 1rem;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.fb-button:hover {
+  background-color: #115293;
+}
+
+
+.booking-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.booking-card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  width: 400px;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.booking-card h2 {
+  margin-top: 0;
+  font-size: 1.4rem;
+}
+
+.close-btn {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  font-size: 22px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.booking-form input,
+.booking-form textarea,
+.booking-form select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.submit-booking {
+  background-color: teal;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.booking-message {
+  margin-top: 10px;
+  color: green;
+  font-weight: bold;
+  text-align: center;
+}

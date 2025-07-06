@@ -1,0 +1,48 @@
+.testimonials-container {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.testimonials-title {
+  font-size: 2.2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.testimonials-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.testimonial-card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.testimonial-card h3 {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.testimonial-message {
+  font-style: italic;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.testimonial-doctor {
+  font-weight: 500;
+  color: #2980b9;
+}
+
+.testimonial-rating {
+  font-size: 1.2rem;
+  color: #f39c12;
+}

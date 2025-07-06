@@ -1,0 +1,122 @@
+.login-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.login-main {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+              url('../assets/images/bg-img2.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.login-box {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1.5px solid rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 40px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.login-btns-box {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.login-btn {
+  width: 100%;
+  max-width: 120px;
+  color: white;
+  padding: 12px 20px;
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.ip-fields {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.ip-fields input {
+  padding: 12px 14px;
+  border-radius: 6px;
+  border: none;
+  width: 90%;
+  font-size: 14px;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+}
+
+.ip-fields input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.login-box button {
+  margin-top: 20px;
+  padding: 12px 18px;
+  background-color: #001e6c;
+  border: none;
+  color: white;
+  font-weight: 700;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 90%;
+}
+
+.login-box button{
+  background-color: #00154a;
+}
+.login-box-last {
+  width: 100%;
+  max-width: 120px;
+  color: white;
+  padding: 12px 20px;
+  border: 2px solid white;
+  border-radius: 6px;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.login-box-last{
+background-color: #00154a;
+}
+
+.login-btn-last:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.login-hide{
+    display:none;
+}
